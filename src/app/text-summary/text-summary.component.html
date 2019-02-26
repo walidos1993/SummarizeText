@@ -6,7 +6,7 @@
     Valider la compression
   </button>
   <label for="lvlresume">Niveau résumé : </label> 
-  <input [(ngModel)]="levelresume" type="number" value="0" min="0" max="8" step="2" name="lvlresume"  [ngModelOptions]="{standalone: true}" />
+  <input [(ngModel)]="levelresume" type="number" value="0" min="2" max="8" step="1" name="lvlresume"  [ngModelOptions]="{standalone: true}" />
   <button type="submit" class="btn btn-primary col-md-6" (click)="resume(valeur)">
     Résumer le texte
   </button>

@@ -11,7 +11,7 @@ import { Observable, interval } from 'rxjs';
 export class TextSummaryComponent implements OnInit {
   valeur: string = "walid";
   level: number= 0;
-  levelresume: number= 0;
+  levelresume: number= 8;
   taille: number = 0;
   constructor(private tSummarize: TextSummarizeService) { }
 
@@ -24,7 +24,7 @@ export class TextSummaryComponent implements OnInit {
   }
   resume(valeur: string) {
     this.taille= valeur.length;
-    this.tSummarize.resume(this.valeur, this.level);
+    this.tSummarize.resume(this.valeur, this.levelresume);
   }
 
   resum(valeur: string) {

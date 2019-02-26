@@ -10,7 +10,6 @@ export interface Result {
 @Injectable()
 
 export class TextSummarizeService {
-  
   value = "";
   constructor(private http: HttpClient) { }
   getValue() {
