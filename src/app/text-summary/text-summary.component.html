@@ -1,0 +1,14 @@
+<form role="form">
+  <textarea name="text" id="" class="col-md-12" rows="20" [(ngModel)]="valeur"></textarea>
+  <label for="lvlcp">Niveau de compression : </label> 
+  <input [(ngModel)]="level" type="number" value="0" min="0" max="3" step="1" name="lvlcp"  [ngModelOptions]="{standalone: true}" />
+  <button type="submit" class="btn btn-primary col-md-6" (click)="validate(valeur)">
+    Valider la compression
+  </button>
+  <label for="lvlresume">Niveau résumé : </label> 
+  <input [(ngModel)]="levelresume" type="number" value="0" min="0" max="8" step="2" name="lvlresume"  [ngModelOptions]="{standalone: true}" />
+  <button type="submit" class="btn btn-primary col-md-6" (click)="resume(valeur)">
+    Résumer le texte
+  </button>
+  La taille du texte:  {{taille}}
+</form>
