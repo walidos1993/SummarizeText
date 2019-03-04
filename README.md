@@ -28,9 +28,8 @@ main.py> fonction resum est la fonction qui résume  le texte Paramètre (texte 
           Cette partie qui va utiliser le fichier contenant le vecteur des mots (output.txt) le but c'est d'associer un ensemble de mots à des mots qui rapproche le plus de leurs sense (similarité) pour en savoir plus : https://scoms.hypotheses.org/657
 
 # Difficultés rencontrés / perspectives
-
-
-      Le premier problème renconté est de de trouver le dictionnaire francais et de le mettre en place dans l'algorithme: les plus connu était en anglais, le projet nécessitait d'apprendre Python et utilisation du Flask et qui nous a poussé à faire des recherches.
+  
+  Le premier problème renconté est de de trouver le dictionnaire francais et de le mettre en place dans l'algorithme: les plus connu était en anglais, le projet nécessitait d'apprendre Python et utilisation du Flask et qui nous a poussé à faire des recherches.
    L'application aurai pu avoir la fonctionnalité pour détecter la langue du texte pour voir quelle librairie , fonctionnalité utiliser pour compresser et quel vecteur utiliser.
 pour résumer on pourra changer le niveau en pourcentage
 
